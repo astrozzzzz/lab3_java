@@ -19,7 +19,7 @@ package ru.lazarev.bird;
  * Является базовым классом для различных видов птиц.
  */
 public abstract class Bird {
-    private String name;
+    protected String name;
 
     /**
      * Создает новый объект птицы с указанным именем.
